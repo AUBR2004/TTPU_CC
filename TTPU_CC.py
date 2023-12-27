@@ -5,8 +5,9 @@ bot = telebot.TeleBot("5898499864:AAFnENMvBBHO3O5bxaINAAeCM1SbNpUAL6A")
 
 user_data = {}
 
-car_options = ["NEXIA", "COBALT", "GENTRA"]
+car_options = ["NEXIA", "COBALT", "GENTRA"] 
 part_options = ["Свечи 🕯️", "Колодки ⚙", "Масло 🛢️", "Антифриз(Охл. сис.) ❄️"]
+
 
 main_menu_button = types.InlineKeyboardButton("📤Назад", callback_data="main_menu")
 
@@ -96,3 +97,4 @@ def return_to_main_menu(call):
 
 if __name__ == "__main__":
     bot.polling(none_stop=True)
+
