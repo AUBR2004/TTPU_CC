@@ -3,7 +3,7 @@ DOWNLOAD THE "TTPU_CC" CODE FROM GITHUB BY EMAIL "aubr2004@gmail.com"
 OPEN "VISUAL_STUDIO_CODE"
 CHOOSE PYTHON INTERPRETER min 3.9 UP TO 3.12.1 (64bit) version!
 ADD FILE "TTPU_CC" IN APLICATION
-IN TERMINAL:"pip install telebot" 0.0.5 version! (chek it by "pip freeze")
+IN TERMINAL:"pip install telebot" 0.0.5 version! "pip install ssl" (chek it by "pip freeze")
 PUSH "CTRL+SHIFT+X" ENTER mssql INSTALL IT!
 IN 4th LINE YOU CAN FIND PLACE TO PUT YOUR OWN TOKEN!
 RUN THE CODE
